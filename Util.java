@@ -10,11 +10,7 @@ public class Util {
     private static String password = "99jK93?nvO";
 
     public static Connection getConnection() {
-        //try {
-        //    Class.forName("com.mysql.cj.jdbc.Driver");
-        //} catch (ClassNotFoundException e) {
-        //    e.printStackTrace();
-        //}
+        
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(url, userName, password);
