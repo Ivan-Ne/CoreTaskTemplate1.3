@@ -5,9 +5,9 @@ import java.sql.*;
 public class Util {
     // реализуйте настройку соеденения с БД
 
-    private static String url = "jdbc:mysql://localhost:3306/world";
-    private static String userName = "sql_user_info";
-    private static String password = "99dbci!A99";
+    private static String url = "jdbc:mysql://localhost:3306/project";
+    private static String userName = "user_info";
+    private static String password = "99jK93?nvO";
 
     public static Connection getConnection() {
         //try {
